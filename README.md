@@ -1,108 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# Onescape
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the Live Website Here](https://jhr1986.github.io/johnhenryroche-ms1-rochefitness/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This project comprises the development of a 6 page website for a fictional recently established gym called Roche Fitness, which is located in Deansgrange Business Park in South Dublin. 
+The website has 6 separate pages to outline the services provided by the gym (Home, About, Facilities, Classes, Join & Info), and an Enquiry Form and Class Schedule (PDF) which are accessed in new windows through call to action buttons.
+The main aim of this website is to provide (i) an overview of the gym to potential customers, prior to them being able to make an Enquiry regarding Membership, and (ii) important information for Current Members in order that they can avail of all of the gym's services.
+In respect of the construction of the website, it has been designed to be fully responsive, intuitive and accessible on a range of media devices (e.g. mobile, tablet & desktop), in order to make it easy for Current and Prospective Members to navigate the site and source information that they require.
 
-## Gitpod Reminders
+## Wireframe
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/Birrellc/MS1-GORILLA-GAINZ-GYM/tree/master/assets/wireframe/) 
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: _Make Public_,
+![picture](assets/readme-images/responsive-view.png)
 
-Another blue button should appear to click: _Open Browser_.
+This website is for a gym where the theme is more vintage bodybuilding meets current fitness, to accomplish this images and colours have been selected as black & white greyscale with a solid red to capture attention while not overloading the user with too much information which could distract from signing up to the gym. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As the website is built to be responsive on smaller devices the navigation bar will shrink to a drop down menu with a hamburger icon.
 
-A blue button should appear to click: _Make Public_,
+Across all pages a footer with social links to allow the user to learn more about the gym itself and also contact details.
 
-Another blue button should appear to click: _Open Browser_.
+* Overview - All pages built to be responsive on mobiles, tablets and desktops to fit in with the target demographic as all 3 uses of the website will be expected to be of use.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Home - The home page is designed to provide a clear call to action to result in people wanting to sign up to the gym while providing basic information about the gym while also looking attractive to the user. - this has been accomplished by using bootstrap features. the main focus point of this page is a jumbotron in the center with basic information of the gym and also a call to action button to insight users to sign up. Below this is a free rotating carousel showing testimonials to postively reassure the user.
 
-To log into the Heroku toolbelt CLI:
+* Classes - The Classes page is used to provide information of what classes are available at the gym and their schedule in order to give the user a clear understanding. Basic infomation is displayed about the classes available then below a resposive grid is used to show the days, classes and times in a row on desktop which shrinks to 2 rows on tablet then a singular row on mobile devices to provide clear information to users with a background image also used in contrast to be eye catching but not too overpowering to the user.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Gallery - The focus of the Gallery page is showing what the gym looks like but also to provide a positive view to the user by showing members of the gym exercising also. This was achieved by use of a bootstrap carousel cycling 3 images with 2 more images below which move from an inline column to a stacked column when moving to smaller devices.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Contact - The Contact page has been designed to be simple and easy to use to help the user get in contact with the gym with ease to help create a positive view, the form requires basic user information and email data to be submitted so that the gym can respond the user directly and individually to create a better user experience.
 
-------
+### User Stories
 
-## Release History
+User:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* The user would like to be able to sign up for the gym online.
+* The user would like to be able to browse which classes are available at the gym and also what time they are scheduled for.
+* The user would like to be able to see the layout and equipment available in the gym.
+* The user would like to be able to have access to the gyms social platforms to see if it is the right place for me.
+* The user would like to be able to see the pricing of the gym and also its opening hours.
+* The user would like to be able to contact the company if any issues arise.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Purpose:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* To provide an easy to use website showcasing the gym and what the gym offers for classes.
+* To provide a website that is minimalitic and easy to navigate so the potential client isn't put off by an overload of information.
+* To provide a simple to use service for potential clients to sign up and join the gym.
+* To provide information as to the location and contact details of the gym.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Designer:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* Minimalistic - To prevent information overload
+* Colours - black/white & red in order to combine the vintage style of the gym and its modern elements also while maintaining the strong image associated with fitness and gyms
+* Call to action - Clear sign up button located on each page to allow ease of access when signing up
+* Responsive - Must be responsive to all platforms to allow ease of use and to increase potential customers for the business
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Target Demographic:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* Fitness motivated people
+* located in Newcastle
+* Likes of fitness classes / free weights / machines
+* Professionals & people with disposable income
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Technologies
+The technologies i have used for this project are:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* HTML5
+* CSS3
+* Bootstrap 4
